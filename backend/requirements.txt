@@ -1,0 +1,26 @@
+# Base FastAPI and DB
+fastapi
+uvicorn[standard]
+sqlmodel
+psycopg2-binary
+pydantic
+pydantic-settings[dotenv]
+
+# Security and Auth
+passlib[bcrypt]
+python-jose[cryptography]
+email-validator
+bcrypt>=3.2,<4.1
+
+# File Uploads
+python-multipart
+
+# DB Migrations
+alembic
+
+# CLI (No longer needed)
+# typer[all]
+
+# Others (Optional but helpful)
+python-dotenv
+slowapi # For Rate Limiting 
